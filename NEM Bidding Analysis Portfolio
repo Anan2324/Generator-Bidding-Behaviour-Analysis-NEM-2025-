@@ -1,5 +1,4 @@
 index.html
-<!DOCTYPE html>
 <html>
 <head>
   <title>NEM Bidding Analysis Portfolio</title>
@@ -19,6 +18,7 @@ index.html
 </head>
 <body>
   <h1>⚡ Generator Bidding Behaviour Analysis (NEM 2025)</h1>
+
   <p>This portfolio showcases analysis of electricity generator bidding data from Australia's National Electricity Market (NEM) for April 2025. The analysis was conducted using Python and visualised with matplotlib and seaborn.</p>
 
   <h2>🔍 Key Insights</h2>
@@ -29,22 +29,22 @@ index.html
   </ul>
 
   <h2>📊 Visual Highlights</h2>
+
   <h3>1. MW by Price Bin</h3>
-  <img src="figures/mw_by_price_bin.png" alt="MW by Price Bin">
+  <img src="figures/mw_by_price_bin.png" alt="MW by Price Bin" width="700">
 
   <h3>2. MW by Hour of Day</h3>
-  <img src="figures/mw_by_hour.png" alt="MW by Hour">
+  <img src="figures/mw_by_hour.png" alt="MW by Hour of Day" width="700">
 
-  <h3>3. Supply Curve by Technology</h3>
-  <img src="figures/supply_curve.png" alt="Supply Curve">
+  <h3>3. Aggregated Supply Curve by Technology</h3>
+  <img src="figures/supply_curve.png" alt="Supply Curve" width="700">
 
   <h2>📁 Resources</h2>
   <ul>
-    <li><a href="https://github.com/Anan2324/My_Portfolio">GitHub Repo</a></li>
-    <li><a href="notebooks/bidding_analysis.ipynb">Jupyter Notebook</a></li>
-    <li><a href="report/NEM_Bidding_Report.pdf">Report PDF</a></li>
+    <li><a href="https://github.com/Anan2324/My_Portfolio" target="_blank">GitHub Repository</a></li>
+    <li><a href="notebooks/bidding_analysis.ipynb" target="_blank">Jupyter Notebook</a></li>
+    <li><a href="report/NEM_Bidding_Report.pdf" target="_blank">Download Final Report (PDF)</a></li>
   </ul>
 </body>
 </html>
 
-</html>
