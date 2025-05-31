@@ -1,0 +1,50 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NEM Bidding Analysis Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f5f5f5;
+      color: #222;
+    }
+    img {
+      max-width: 100%;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚡ Generator Bidding Behaviour Analysis (NEM 2025)</h1>
+  <p>This portfolio showcases analysis of electricity generator bidding data from Australia's National Electricity Market (NEM) for April 2025. The analysis was conducted using Python and visualised with matplotlib and seaborn.</p>
+
+  <h2>🔍 Key Insights</h2>
+  <ul>
+    <li>Renewables bid nearly all MW at or below $0 — price inelastic</li>
+    <li>Fossil-fuels distribute MW across a wide price range</li>
+    <li>Evening peak bidding driven by fossil-fuels; solar bids vanish after 6PM</li>
+  </ul>
+
+  <h2>📊 Visual Highlights</h2>
+  <h3>1. MW by Price Bin</h3>
+  <img src="figures/mw_by_price_bin.png" alt="MW by Price Bin">
+
+  <h3>2. MW by Hour of Day</h3>
+  <img src="figures/mw_by_hour.png" alt="MW by Hour">
+
+  <h3>3. Supply Curve by Technology</h3>
+  <img src="figures/supply_curve.png" alt="Supply Curve">
+
+  <h2>📁 Resources</h2>
+  <ul>
+    <li><a href="https://github.com/Anan2324/My_Portfolio">GitHub Repo</a></li>
+    <li><a href="notebooks/bidding_analysis.ipynb">Jupyter Notebook</a></li>
+    <li><a href="report/NEM_Bidding_Report.pdf">Report PDF</a></li>
+  </ul>
+</body>
+</html>
+
+</html>
