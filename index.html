@@ -1,50 +1,94 @@
-index.html
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>NEM Bidding Analysis Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Generator Bidding Behaviour Analysis | NEM 2025</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
       padding: 2rem;
-      background: #f5f5f5;
-      color: #222;
+    }
+    h1, h2, h3 {
+      color: #003366;
+    }
+    .section {
+      margin-bottom: 3rem;
     }
     img {
-      max-width: 100%;
-      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
+      width: 100%;
+      max-width: 800px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 1.2rem;
     }
   </style>
 </head>
 <body>
+
   <h1>⚡ Generator Bidding Behaviour Analysis (NEM 2025)</h1>
 
-  <p>This portfolio showcases analysis of electricity generator bidding data from Australia's National Electricity Market (NEM) for April 2025. The analysis was conducted using Python and visualised with matplotlib and seaborn.</p>
+  <div class="section">
+    <p><strong>Project Objective:</strong> This portfolio explores bidding strategies in Australia’s National Electricity Market (NEM) using April 2025 generator data. The goal is to uncover behavioural patterns of fossil-fuel and renewable generators and derive business-relevant insights for market operators and policymakers.</p>
+  </div>
 
-  <h2>🔍 Key Insights</h2>
-  <ul>
-    <li>Renewables bid nearly all MW at or below $0 — price inelastic</li>
-    <li>Fossil-fuels distribute MW across a wide price range</li>
-    <li>Evening peak bidding driven by fossil-fuels; solar bids vanish after 6PM</li>
-  </ul>
+  <div class="section">
+    <h2>📌 Problem Overview</h2>
+    <p>With increasing penetration of renewables and volatile energy demand, understanding bidding behaviour is essential to ensure grid reliability and efficient pricing. This project identifies how generation technology influences pricing strategy and bid availability patterns.</p>
+  </div>
 
-  <h2>📊 Visual Highlights</h2>
+  <div class="section">
+    <h2>🛠️ Methodology & Tools</h2>
+    <ul>
+      <li><strong>Data Source:</strong> Public dispatch bidding data from the AEMO (April 2025)</li>
+      <li><strong>Tech Stack:</strong> Python (pandas, matplotlib, seaborn), Jupyter Notebook, HTML/CSS</li>
+      <li><strong>Approach:</strong> Data wrangling → Feature Engineering → Aggregation → Visual Analytics</li>
+    </ul>
+  </div>
 
-  <h3>1. MW by Price Bin</h3>
-  <img src="figures/mw_by_price_bin.png" alt="MW by Price Bin" width="700">
+  <div class="section">
+    <h2>🔍 Key Insights</h2>
+    <ul>
+      <li>⚡ <strong>Renewables</strong> bid nearly all capacity at or below $0 — indicating price inelastic behaviour.</li>
+      <li>🔥 <strong>Fossil-fuels</strong> bid across wide price ranges — showing responsive pricing strategy.</li>
+      <li>🌅 <strong>Evening peaks</strong> are dominated by fossil fuels as solar bids drop after 6PM.</li>
+    </ul>
+  </div>
 
-  <h3>2. MW by Hour of Day</h3>
-  <img src="figures/mw_by_hour.png" alt="MW by Hour of Day" width="700">
+  <div class="section">
+    <h2>📊 Visual Highlights</h2>
 
-  <h3>3. Aggregated Supply Curve by Technology</h3>
-  <img src="figures/supply_curve.png" alt="Supply Curve" width="700">
+    <h3>1. MW Distribution by Price Bin</h3>
+    <img src="figures/mw_by_price_bin.png" alt="MW by Price Bin">
 
-  <h2>📁 Resources</h2>
-  <ul>
-    <li><a href="https://github.com/Anan2324/My_Portfolio" target="_blank">GitHub Repository</a></li>
-    <li><a href="notebooks/bidding_analysis.ipynb" target="_blank">Jupyter Notebook</a></li>
-    <li><a href="report/NEM_Bidding_Report.pdf" target="_blank">Download Final Report (PDF)</a></li>
-  </ul>
+    <h3>2. MW Offered by Hour of Day</h3>
+    <img src="figures/mw_by_hour.png" alt="MW by Hour of Day">
+
+    <h3>3. Aggregated Supply Curve by Technology</h3>
+    <img src="figures/supply_curve.png" alt="Supply Curve">
+  </div>
+
+  <div class="section">
+    <h2>📘 Report & Code Resources</h2>
+    <ul>
+      <li><a href="https://github.com/Anan2324/My_Portfolio" target="_blank">🔗 GitHub Repository</a></li>
+      <li><a href="notebooks/bidding_analysis.ipynb" target="_blank">📒 View the Jupyter Notebook</a></li>
+      <li><a href="report/NEM_Bidding_Report.pdf" target="_blank">📄 Download Final Report (PDF)</a></li>
+    </ul>
+  </div>
+
 </body>
 </html>
 
