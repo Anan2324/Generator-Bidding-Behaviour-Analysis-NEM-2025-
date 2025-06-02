@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Generator Bidding Behaviour Analysis | NEM 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f0f1a;
+      color: #e6f0ff;
+      line-height: 1.8;
+      padding: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: #00fff7;
+      font-weight: 600;
+    }
+
+    .project-wrapper {
+      max-width: 1000px;
+      margin: auto;
+      background-color: #16162b;
+      padding: 3rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0, 255, 247, 0.05);
+    }
+
+    .project-title {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .section {
+      margin-top: 2.5rem;
+    }
+
+    p {
+      color: #c6d1e3;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      color: #c6d1e3;
+    }
+
+    ul li {
+      margin-bottom: 0.6rem;
+    }
+
+    strong {
+      color: #ffffff;
+    }
+
+    img {
+      width: 100%;
+      max-width: 800px;
+      display: block;
+      margin: 1rem auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0, 255, 247, 0.1);
+    }
+
+    a {
+      color: #00fff7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      justify-content: center;
+    }
+
+    .button {
+      background-color: transparent;
+      border: 2px solid #00fff7;
+      color: #00fff7;
+      padding: 0.5rem 1.2rem;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #00fff7;
+      color: #0f0f1a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="project-wrapper">
+    <h1 class="project-title">⚡ Generator Bidding Behaviour Analysis (NEM 2025)</h1>
+
+    <div class="section">
+      <p><strong>Project Objective:</strong> This project explores bidding strategies in Australia’s National Electricity Market (NEM) using April 2025 generator data. The goal is to uncover behavioural patterns of fossil-fuel and renewable generators and derive business-relevant insights for market operators and policymakers.</p>
+    </div>
+
+    <div class="section">
+      <h2>📌 Problem Overview</h2>
+      <p>With increasing penetration of renewables and volatile energy demand, understanding bidding behaviour is essential to ensure grid reliability and efficient pricing. This project identifies how generation technology influences pricing strategy and bid availability patterns.</p>
+    </div>
+
+    <div class="section">
+      <h2>🛠️ Methodology & Tools</h2>
+      <ul>
+        <li><strong>Data Source:</strong> AEMO Dispatch Bidding Data (April 2025)</li>
+        <li><strong>Tech Stack:</strong> Python (pandas, matplotlib, seaborn), Jupyter Notebook, HTML/CSS</li>
+        <li><strong>Approach:</strong> Data Wrangling → Feature Engineering → Aggregation → Visual Analytics</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🔍 Key Insights</h2>
+      <ul>
+        <li>⚡ <strong>Renewables</strong> bid nearly all capacity at or below $0 — indicating price inelastic behaviour.</li>
+        <li>🔥 <strong>Fossil-fuels</strong> bid across wide price ranges — showing responsive pricing strategy.</li>
+        <li>🌅 <strong>Evening peaks</strong> are dominated by fossil fuels as solar bids drop after 6PM.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📊 Visual Highlights</h2>
+
+      <h3>1. MW Distribution by Price Bin</h3>
+      <img src="figures/mw_by_price_bin.png" alt="MW by Price Bin" />
+
+      <h3>2. MW Offered by Hour of Day</h3>
+      <img src="figures/mw_by_hour.png" alt="MW by Hour of Day" />
+
+      <h3>3. Aggregated Supply Curve by Technology</h3>
+      <img src="figures/supply_curve.png" alt="Supply Curve" />
+    </div>
+
+    <div class="section">
+      <h2>📘 Report & Code Resources</h2>
+      <ul>
+        <li>🔗 <a href="https://github.com/Anan2324/My_Portfolio" target="_blank">GitHub Repository</a></li>
+        <li>📒 <a href="notebooks/bidding_analysis.ipynb" target="_blank">View the Jupyter Notebook</a></li>
+        <li>📄 <a href="report/NEM_Bidding_Report.pdf" target="_blank">Download Final Report (PDF)</a></li>
+      </ul>
+
+      <div class="button-group">
+        <a class="button" href="https://github.com/Anan2324/My_Portfolio" target="_blank">View on GitHub</a>
+        <a class="button" href="report/NEM_Bidding_Report.pdf" target="_blank">Download Report</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
