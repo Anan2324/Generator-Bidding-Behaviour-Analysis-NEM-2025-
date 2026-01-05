@@ -80,10 +80,10 @@ Line plot of average bid price by hour of day reveals:
 
 ## 📬 Authors
 
-**Ananya Pandey**  
-*Master of Business Analytics, Macquarie University*  
-📧 Email: [pandey.ananya472@gmail.com]  
-🔗 LinkedIn: [[linkedin.com/in/ananyapandey](https://www.linkedin.com/in/ananyapandey99/)](#)
+**Anant Pandey**  
+*Master of Business Analytics, Deakin University*  
+📧 Email: [pandey.anant472@gmail.com]  
+🔗 LinkedIn: [[linkedin.com/in/anantpandey24](https://www.linkedin.com/in/anantpandey24/)](#)
 
 ---
 
